@@ -3,19 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>strong</string>
+	<string>yy-transform</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) &lt;#Class#&gt; *&lt;#object#&gt;;</string>
+	<string>- (BOOL)modelCustomTransformFromDictionary:(NSDictionary *)dic {
+    &lt;#code#&gt;
+    return YES;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E2720B9C-D1E0-4229-879E-DF499DD09148</string>
+	<string>CD62F2F3-53DA-4CDA-9AD2-C08F7EFCFAA1</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My Nonatomic</string>
+	<string>My yy-transform</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,19 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>strong</string>
+	<string>yy-comtainer</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) &lt;#Class#&gt; *&lt;#object#&gt;;</string>
+	<string>+ (NSDictionary *)modelContainerPropertyGenericClass {
+    return @{
+             @"&lt;#local#&gt;": &lt;#class#&gt;
+             };
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E2720B9C-D1E0-4229-879E-DF499DD09148</string>
+	<string>7DAE124E-649A-4092-B3A0-68532B16C302</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My Nonatomic</string>
+	<string>My yy-comtainer</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

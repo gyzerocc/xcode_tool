@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>strong</string>
+	<string>wz</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) &lt;#Class#&gt; *&lt;#object#&gt;;</string>
+	<string> /**&lt; &lt;#注释#&gt; */</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E2720B9C-D1E0-4229-879E-DF499DD09148</string>
+	<string>84AA23D4-F099-4F9B-9DEB-FBF16ECBB844</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My Nonatomic</string>
+	<string>My end annotation</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

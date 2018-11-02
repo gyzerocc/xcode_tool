@@ -3,19 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>strong</string>
+	<string>yy-property</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, strong) &lt;#Class#&gt; *&lt;#object#&gt;;</string>
+	<string>+ (NSDictionary *)modelCustomPropertyMapper {
+    return @{
+             @"&lt;#local#&gt;": @"&lt;#remote#&gt;"
+             };
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>E2720B9C-D1E0-4229-879E-DF499DD09148</string>
+	<string>049691D6-C7C1-4389-9ED8-43F2E6464958</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My Nonatomic</string>
+	<string>My yy-property</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
