@@ -3,26 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>globalGCD</string>
+	<string>iif</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
+		<string>CodeExpression</string>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-        &lt;#code#&gt;
-    });</string>
+	<string>if (&lt;#code#&gt;) {
+        
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>9D6D3B53-E408-472E-99C2-742C502077EE</string>
+	<string>4A495D7E-1A86-4DBF-8DB3-482559BDD0BC</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>全局并发队列</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My Global GCD</string>
+	<string>MCS - if</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

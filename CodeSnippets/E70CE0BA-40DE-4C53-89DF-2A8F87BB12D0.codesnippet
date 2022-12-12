@@ -3,24 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>myAnnotation</string>
+	<string>iafter</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/**&lt; &lt;#description#&gt; */</string>
+	<string>dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(&lt;#delayInSeconds#&gt; * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+    &lt;#code to be executed after a specified delay#&gt;
+});</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>323CD2B3-FA86-4279-A8A6-CAF3EF3894C1</string>
+	<string>E70CE0BA-40DE-4C53-89DF-2A8F87BB12D0</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>注释</string>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My Annotation</string>
+	<string>MCS - after</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
