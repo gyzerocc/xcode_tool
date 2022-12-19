@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>assign</string>
+	<string>itodo</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, assign) &lt;#Class#&gt; &lt;#object#&gt;;</string>
+	<string>// TODO: gongyang &lt;#reason#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>29908E02-0DAD-47BB-8897-9F6CD9D9E741</string>
+	<string>C2E7DCB7-4A74-4F38-828D-204A9EAF22B9</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My Assign</string>
+	<string>MCS - todo</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
