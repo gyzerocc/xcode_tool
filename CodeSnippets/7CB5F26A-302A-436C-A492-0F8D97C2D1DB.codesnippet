@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dispatch-after</string>
+	<string>iafter</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>DispatchQueue.main.asyncAfter(deadline: .now() + &lt;#Time#&gt;) { 
@@ -19,7 +19,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string>swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>My Dispatch After</string>
+	<string>MCS - after</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
